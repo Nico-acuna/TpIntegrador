@@ -4,9 +4,9 @@ import '../components/styles/MainLogIn.css';
 export default function MainLogIn() {
 
     return (
-        <body>
-            <div className="bodyLogIn">
-                <h2 className="crearCuenta">Crear cuenta</h2>
+        
+            <div className="bodylogin">
+                    <h2 className="h2login">Crear cuenta</h2>
                 <div>
                     <p>Nombre</p>
                     <input type="text"></input>
@@ -28,6 +28,6 @@ export default function MainLogIn() {
                     <input type="password"></input>
                 </div>
             </div>
-        </body>
+        
     )
 }

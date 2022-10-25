@@ -1,11 +1,11 @@
-.bodyLogIn{
+.bodylogin{
     width: 100%;
     height:100%;
-    padding-top:30rem;
-    /* font-family: 'Roboto', sans-serif; */
-};
+    padding-top:1rem;
+    font-family: 'Roboto', sans-serif;
+}
 
-.crearCuenta{
+.h2login{
     /* font-family: 'Roboto', sans-serif; */
     color: #1DBEB4;
 }
