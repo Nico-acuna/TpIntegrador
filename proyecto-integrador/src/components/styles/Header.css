@@ -1,0 +1,27 @@
+.header{
+    height: 5rem;
+    background-color: black;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logoHeader {
+    padding-left: 2rem;
+    padding-top:2rem;
+    width: 34.75rem;
+    height: 3.688rem;
+}
+
+.buttonHeader{
+    margin-right: 2rem;
+    margin-top:2rem;
+    padding-left:3.406rem;
+    padding-right:3.406rem;
+    padding-top:0.688rem;
+    padding-bottom: 0.688rem;
+    background: #FFFFFF;
+    border: 1px solid #1DBEB4;
+    border-radius: 5px;
+}
