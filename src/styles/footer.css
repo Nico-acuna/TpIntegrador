@@ -1,0 +1,21 @@
+@import url("../App.css");
+
+.MainFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: fit-content;
+}
+
+.social {
+    width: fit-content;
+    margin-right: 3rem;
+}
