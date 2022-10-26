@@ -1,0 +1,10 @@
+@import url("../App.css");
+
+.error{
+    border: 2px solid red;
+    background-color: #FFE1E1;
+}
+
+.errorMessage {
+    color: red;
+}

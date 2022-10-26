@@ -7,36 +7,77 @@ export function RegistrationForm (){
    const [lastName, setLastName] = useState("");
    const [email, setEmail] = useState("");
    const [pass, setPass] = useState("");
-    
-
+   const [error, setError] = useState(false);
+ 
 
     const handleSubmit = (e)=>{
       e.preventDefault();
+      if(pass===""){
+        setError(true);
+      }
+
     }
 
     return (
       <>
-        <h3>Crear Cuenta</h3>
+        <h3 className="title">Crear Cuenta</h3>
         <form onSubmit={handleSubmit} className="login-form">
           <label htmlFor="name">Nombre</label>
-          <input type="text" name="name" id="name" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            value={name}
+            onChange={e => {
+              setName(e.target.value);
+            }}
+          />
 
           <label htmlFor="lastName">Apellido</label>
-          <input type="text" name="lastName" id="lastName" />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            value={lastName}
+            onChange={e => {
+              setLastName(e.target.value);
+            }}
+          />
 
           <label htmlFor="email">Correo electrónico</label>
-          <input type="email" name="email" id="email" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value={email}
+            onChange={e => {
+              setEmail(e.target.value);
+            }}
+          />
 
           <label htmlFor="">Contraseña</label>
-          <input type="password" name="pass" id="pass" />
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            value={pass}
+            onChange={e => {
+              setPass(e.target.value);
+            }}
+          />
           <label htmlFor="">Confirmar Contraseña</label>
           <input
+            className={ error && "error"}
             type="password"
             name="passwordC"
             id="passwordC"
             minLength="6"
+            onChange={e => {
+              setPass(e.target.value);
+            }}
           />
-          <button type="submit">Crear cuenta</button>
+          {error && <h6 className="errorMessage">Este campo es obligatorio</h6>}
+          <button className="submit" type="submit">Crear cuenta</button>
           <h6>
             ¿Ya tienes una cuenta? <Link to="/">Ir a Login</Link>
           </h6>
