@@ -1,10 +1,59 @@
 @import url("../App.css");
 
-.error{
+.errorInput{
     border: 2px solid red;
     background-color: #FFE1E1;
 }
 
 .errorMessage {
     color: red;
+}
+
+.registration-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+    margin-top: 1.5rem;
+}
+
+.registration-form input {
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    padding-block: 0.5rem;
+    margin-inline: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.registration-form label {
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    font-size: small;
+    margin-inline: 0.5rem;
+}
+
+.registration-form .register-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form .fullname {
+    display: flex;
+    flex-direction: row;
+}
+
+.registered-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

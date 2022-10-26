@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/login.css"
 
 
 export function LoginForm(){
@@ -28,9 +29,9 @@ export function LoginForm(){
     return (
       <>
         {!login && (
-          <div>
+          <div className="login-container">
             <h3 className="title">Iniciar Sesión</h3>
-            <form className="login-form" onSubmit={handleSubmit} className="login-form">
+            <form className="login-form" onSubmit={handleSubmit}>
               <label htmlFor="email">Correo electrónico</label>
               <input
                 type="email"
@@ -52,13 +53,17 @@ export function LoginForm(){
                   setPass(e.target.value);
                 }}
               />
-              <button className="submit" type="submit">Ingresar</button>
-              {error && (
-                <h6 className="error">Correo o contraseña inválidos</h6>
-              )}
-              <h6>
-                ¿Aún no tienes cuenta? <Link to="signup">Regístrate</Link>
-              </h6>
+              <div>
+                <button className="submit" type="submit">
+                  Ingresar
+                </button>
+                {error && (
+                  <h6 className="error">Ingrese un correo y contraseña válidos</h6>
+                )}
+                <h6>
+                  ¿Aún no tienes cuenta? <Link to="signup">Regístrate</Link>
+                </h6>
+              </div>
             </form>
           </div>
         )}

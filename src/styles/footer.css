@@ -17,5 +17,9 @@
 
 .social {
     width: fit-content;
-    margin-right: 3rem;
+    margin-right: 5rem;
+}
+
+.social img {
+    padding-right: 1.5rem;
 }

@@ -6,3 +6,40 @@
 .error {
     color:red;
 }
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+    margin-top: 4rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+   
+}
+
+.login-form input {
+    border:0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    margin-block: 0.5rem;
+    padding-block: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.login-form label {
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.login-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

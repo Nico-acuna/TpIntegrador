@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/registration.css";
 
 export function RegistrationForm (){
  
@@ -19,30 +20,35 @@ export function RegistrationForm (){
     }
 
     return (
-      <>
+      <div className="registration-container">
         <h3 className="title">Crear Cuenta</h3>
-        <form onSubmit={handleSubmit} className="login-form">
-          <label htmlFor="name">Nombre</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            value={name}
-            onChange={e => {
-              setName(e.target.value);
-            }}
-          />
-
-          <label htmlFor="lastName">Apellido</label>
-          <input
-            type="text"
-            name="lastName"
-            id="lastName"
-            value={lastName}
-            onChange={e => {
-              setLastName(e.target.value);
-            }}
-          />
+        <form onSubmit={handleSubmit} className="registration-form">
+          <div className="fullname">
+            <div className="registered-name">
+              <label htmlFor="name">Nombre</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value={name}
+                onChange={e => {
+                  setName(e.target.value);
+                }}
+              />
+            </div>
+            <div className="registered-name">
+              <label htmlFor="lastName">Apellido</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                value={lastName}
+                onChange={e => {
+                  setLastName(e.target.value);
+                }}
+              />
+            </div>
+          </div>
 
           <label htmlFor="email">Correo electrónico</label>
           <input
@@ -67,7 +73,7 @@ export function RegistrationForm (){
           />
           <label htmlFor="">Confirmar Contraseña</label>
           <input
-            className={ error && "error"}
+            className={error && "errorInput"}
             type="password"
             name="passwordC"
             id="passwordC"
@@ -77,11 +83,15 @@ export function RegistrationForm (){
             }}
           />
           {error && <h6 className="errorMessage">Este campo es obligatorio</h6>}
-          <button className="submit" type="submit">Crear cuenta</button>
-          <h6>
-            ¿Ya tienes una cuenta? <Link to="/">Ir a Login</Link>
-          </h6>
+          <div className="register-div">
+            <button className="submit" type="submit">
+              Crear cuenta
+            </button>
+            <h6>
+              ¿Ya tienes una cuenta? <Link to="/">Ir a Login</Link>
+            </h6>
+          </div>
         </form>
-      </>
+      </div>
     );
 }
