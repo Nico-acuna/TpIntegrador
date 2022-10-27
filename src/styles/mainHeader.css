@@ -3,6 +3,7 @@
 .MainHeader {
     display: flex;
     flex-direction: row;
+     width: 100vw;
     justify-content: space-between;
     align-items: flex-end;
     padding-inline: 3rem;
@@ -16,6 +17,7 @@
     font-weight: 300;
     font-style: italic;
     padding-left: 0.5rem;
+    font-size: small;
 }
 .MainHeader div {
     display: flex;
@@ -24,6 +26,8 @@
 }
 .MainHeader button {
     height: fit-content;
+    margin-left: 0.5rem;
+    margin-right: 6rem;
     border: 2px solid;
     border-color: var(--primary-color);
     color: var(--primary-color);

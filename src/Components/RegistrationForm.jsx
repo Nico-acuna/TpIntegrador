@@ -73,7 +73,7 @@ export function RegistrationForm (){
           />
           <label htmlFor="">Confirmar Contraseña</label>
           <input
-            className={error && "errorInput"}
+            className={error? "errorInput":null}
             type="password"
             name="passwordC"
             id="passwordC"
