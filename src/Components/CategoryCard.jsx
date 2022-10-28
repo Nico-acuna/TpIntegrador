@@ -1,4 +1,4 @@
-import './CategoryCard.css'
+import '../styles/CategoryCard.css'
 
 export const CategoryCard = ({category}) => {
   return (

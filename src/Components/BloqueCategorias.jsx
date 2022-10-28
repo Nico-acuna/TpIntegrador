@@ -1,6 +1,6 @@
-import './BloqueCategorias.css'
-import categories from './categories.json'
-import { CategoryCard } from './CategoryCard'
+import '../styles/BloqueCategorias.css'
+import categories from '../categories.json'
+import { CategoryCard } from '../components/CategoryCard'
 
 export const BloqueCategorias = () => {
   return (

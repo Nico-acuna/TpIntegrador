@@ -1,6 +1,6 @@
-import { LoginForm } from "../Components/LoginForm";
-import { MainHeader } from "../Components/MainHeader";
-import {MainFooter} from "../Components/MainFooter";
+import { LoginForm } from "../components/LoginForm";
+import { MainHeader } from "../components/MainHeader";
+import {MainFooter} from "../components/MainFooter";
 import { useNavigate } from "react-router-dom";
 import "../styles/login.css";
 

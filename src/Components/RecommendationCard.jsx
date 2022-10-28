@@ -1,4 +1,4 @@
-import './RecommendationCard.css'
+import '../styles/RecommendationCard.css'
 
 export const RecommendationCard = ({recommendation}) => {
   const getAmenityDimensions = (amenity) => {

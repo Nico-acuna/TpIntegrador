@@ -1,6 +1,6 @@
-import { RegistrationForm } from "../Components/RegistrationForm";
-import { MainHeader } from "../Components/MainHeader";
-import { MainFooter } from "../Components/MainFooter";
+import { RegistrationForm } from "../components/RegistrationForm";
+import { MainHeader } from "../components/MainHeader";
+import { MainFooter } from "../components/MainFooter";
 import { useNavigate } from "react-router-dom";
 import "../styles/registration.css";
 

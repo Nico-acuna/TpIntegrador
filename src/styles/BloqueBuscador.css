@@ -48,14 +48,6 @@ input::placeholder {
   opacity: 0.6;
 }
 
-.destination::placeholder {
-  background: url(icons/locate.svg) no-repeat 11px;
-}
-
-.dates::placeholder {
-  background: url(icons/calendar.svg) no-repeat 11px;
-}
-
 button {
   background-color: #1DBEB4;
   border: 1px solid #1DBEB4;

@@ -1,6 +1,6 @@
-import { RecommendationCard } from './RecommendationCard'
-import recommendations from './recommendations.json'
-import './BloqueListado.css'
+import { RecommendationCard } from '../components/RecommendationCard'
+import recommendations from '../recommendations.json'
+import '../styles/BloqueListado.css'
 
 export const BloqueListado = () => {
   return (
