@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Hoteles",
+    "type": "hoteles",
+    "number": 807105,
+    "url": "imgs/hoteles.png",
+    "alt": "Habitación de hotel con cama matrimonial y vista panorámica"
+  },
+  {
+    "id": 2,
+    "title": "Hostels",
+    "type": "hostels",
+    "number": 1608992,
+    "url": "imgs/hostels.png",
+    "alt": "Habitación simple con dos camas separadas"
+  },
+  {
+    "id": 3,
+    "title": "Departamentos",
+    "type": "departamentos",
+    "number": 478530,
+    "url": "imgs/departamentos.png",
+    "alt": "Cama matrimonial acogedora"
+  },
+  {
+    "id": 4,
+    "title": "Bed and breakfast",
+    "type": "bed and breafast",
+    "number": 201520,
+    "url": "imgs/bed-and-breakfast.png",
+    "alt": "Casa tropical con piscina"
+  }
+]

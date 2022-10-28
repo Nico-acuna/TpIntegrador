@@ -1,0 +1,40 @@
+h2 {
+  color: #383B58;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.recommendations_wrapper {
+  display: grid;
+  grid-template-columns: 1% 90% 9%;
+}
+
+@media (min-width: 360px) {
+  .recommendations_wrapper {
+    grid-template-columns: 5% 90% 5%;
+  }
+}
+
+@media (min-width: 600px) {
+  .recommendations_wrapper {
+    grid-template-columns: 10% 80% 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recommendations_wrapper {
+    grid-template-columns: 7% 90% 3%;
+  }
+}
+
+.recommendations_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendation_cards {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "hotel",
+    "stars": 5,
+    "rating": 8,
+    "title": "Hermitage Hotel",
+    "description": "En el corazon de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires. Y mucho más...",
+    "center_distance": 940,
+    "amenities": ["wifi", "pool"],
+    "url": "imgs/recommendation1.png",
+    "alt": "Habitación de hotel con cama matrimonial y vista panorámica"
+  },
+  {
+    "id": 2,
+    "type": "hotel",
+    "stars": 5,
+    "rating": 8,
+    "title": "Hermitage Hotel",
+    "description": "En el corazon de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires. Y mucho más...",
+    "center_distance": 940,
+    "amenities": ["wifi", "pool"],
+    "url": "imgs/recommendation2.png",
+    "alt": "Habitación con cama matrimonial acogedora"
+  }
+]

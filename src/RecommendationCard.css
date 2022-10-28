@@ -1,0 +1,125 @@
+.recommendation_card_wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin: 12px;
+  height: 120px;
+  width: 100%;
+}
+
+.recommendation_card_wrapper > img {
+  border-radius: 10px;
+}
+
+.recommendation_card_content {
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 6px 12px;
+  width: 100%;
+}
+
+.recommendation_button {
+  background-color: #1DBEB4;
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+}
+
+.recommendation_card_type_wrapper {
+  display: flex;
+  margin-bottom: -4px;
+}
+
+.recommendation_card_type {
+  color: #383B58;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-right: 4px;
+}
+
+.recommendation_title {
+  margin-top: 0;
+}
+
+.recommendation_description {
+  color: #383B58;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 1;
+  display: none;
+}
+
+.distance_info_wrapper {
+  display: flex;
+  margin-top: 8px;
+}
+
+.distance_info_wrapper img {
+  display: none;
+  margin-left: 12px;
+  margin-right: -6px
+}
+
+.amenities_wrapper {
+  align-items: center;
+  display: none;
+  margin-bottom: 24px;
+  margin-left: 12px;
+}
+
+.recommendation_main_description {
+  color: #383B58;
+  display: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 1;
+}
+
+@media (min-width: 400px) {
+  .recommendation_card_wrapper {
+    height: 160px;
+  }
+}
+
+@media (min-width: 700px) {
+  .recommendation_card_wrapper {
+    height: auto;
+    width: 92.5%;
+  }
+  .recommendation_title {
+    margin-bottom: 18px;
+  }
+  .recommendation_description {
+    display: inline;
+  }
+  .distance_info_wrapper img {
+    display: flex;
+  }
+  .amenities_wrapper {
+    display: flex;
+  }
+  .recommendation_main_description {
+    display: inline;
+  }
+  .recommendation_button {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recommendation_card_wrapper {
+    width: 45.6%;
+    max-width: 704px;
+  }
+}
