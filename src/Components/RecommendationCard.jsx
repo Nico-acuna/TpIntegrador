@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/RecommendationCard.css'
 
 export const RecommendationCard = ({recommendation}) => {
@@ -42,7 +43,9 @@ export const RecommendationCard = ({recommendation}) => {
           ))}
         </div>
         <p className="recommendation_main_description">{recommendation.description}</p>
-        <button className="recommendation_button">Ver más</button>
+        <Link to={"/recomendaciones"}>
+          <button className="recommendation_button">Ver más</button>
+        </Link>
       </div>
     </div>
   )

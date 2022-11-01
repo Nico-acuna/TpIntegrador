@@ -9,13 +9,13 @@ export function MainPage(){
 
     const navigate = useNavigate();
 
-    const goToRegister = ()=>{
-        navigate("/signup");
+    const goToLogIn = ()=>{
+        navigate("/login");
     }
 
     return (
       <>
-        <MainHeader title="Crear Cuenta" btnHandler={goToRegister}/>
+        <MainHeader title="Iniciar Sesión" btnHandler={goToLogIn}/>
         <BloqueBuscador/>
         <div>
           <BloqueCategorias/>

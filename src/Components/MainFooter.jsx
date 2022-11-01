@@ -8,7 +8,7 @@ import LogoFace from "../assets/facebook.png";
 export function MainFooter() {
   return (
     <div className="MainFooter">
-      <h6>© 2022 Digital Booking</h6>
+      <h4>© 2022 Digital Booking</h4>
       <div className="social">
         <img src={LogoFace} alt="face" />
         <img src={LogoLink} alt="in" />

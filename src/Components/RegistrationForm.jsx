@@ -88,7 +88,7 @@ export function RegistrationForm (){
               Crear cuenta
             </button>
             <h6>
-              ¿Ya tienes una cuenta? <Link to="/">Ir a Login</Link>
+              ¿Ya tienes una cuenta? <Link to="/login">Ir a Login</Link>
             </h6>
           </div>
         </form>

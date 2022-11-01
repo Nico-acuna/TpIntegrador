@@ -8,7 +8,7 @@ export function SignUpPage() {
 
     const navigate = useNavigate();
     const goToLogin = ()=>{
-        navigate("/");
+        navigate("/login");
     }
 
   return (

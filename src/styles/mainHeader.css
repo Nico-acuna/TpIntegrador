@@ -18,6 +18,8 @@
     font-style: italic;
     padding-left: 0.5rem;
     font-size: small;
+    position: relative;
+    bottom: -30px;
 }
 .MainHeader div {
     display: flex;
@@ -35,5 +37,29 @@
     padding-block: 0.4rem;
     border-radius: 5px;
     background-color: var(--bg-color);
-
 }
+/* @media (min-width: 360px) {
+    .MainHeader {
+      ;
+    }
+    .slogan{
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .MainHeader {
+      ;
+    }
+    .slogan{
+
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .MainHeader {
+      ;
+    }
+    .slogan{
+
+    }
+  } */

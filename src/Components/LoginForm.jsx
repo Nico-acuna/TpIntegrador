@@ -61,7 +61,7 @@ export function LoginForm(){
                   <h6 className="error">Ingrese un correo y contraseña válidos</h6>
                 )}
                 <h6>
-                  ¿Aún no tienes cuenta? <Link to="signup">Regístrate</Link>
+                  ¿Aún no tienes cuenta? <Link to="/signup">Regístrate</Link>
                 </h6>
               </div>
             </form>
