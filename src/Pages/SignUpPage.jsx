@@ -13,7 +13,7 @@ export function SignUpPage() {
 
   return (
     <>
-      <MainHeader title="Iniciar Sesión" btnHandler={goToLogin} />
+      <MainHeader title2="Iniciar Sesión" btnHandler2={goToLogin} showButton={false}/>
       <RegistrationForm />
       <MainFooter />
     </>

@@ -14,7 +14,7 @@ export function LoginPage(){
 
     return (
       <>
-        <MainHeader title="Crear Cuenta" btnHandler={goToRegister}/>
+        <MainHeader title2="Crear Cuenta" btnHandler2={goToRegister} showButton={false}/>
         <LoginForm/>
         <MainFooter/>
       </>

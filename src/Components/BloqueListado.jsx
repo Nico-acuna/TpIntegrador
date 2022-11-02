@@ -1,4 +1,4 @@
-import { RecommendationCard } from '../components/RecommendationCard'
+import { RecommendationCard } from './RecommendationCard'
 import recommendations from '../recommendations.json'
 import '../styles/BloqueListado.css'
 

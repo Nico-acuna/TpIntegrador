@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../styles/BloqueBuscador.css'
 import cities from '../cities.json'
-import { ClickAwayListener } from '../components/OutsideController'
+import { ClickAwayListener } from './OutsideController'
 
 export function BloqueBuscador() {
   const [showMenu, setShowMenu] = useState(false)

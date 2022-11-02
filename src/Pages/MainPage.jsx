@@ -12,16 +12,24 @@ export function MainPage(){
     const goToLogIn = ()=>{
         navigate("/login");
     }
+     const goToRegister = () => {
+       navigate("/signup");
+     };
 
     return (
       <>
-        <MainHeader title="Iniciar Sesión" btnHandler={goToLogIn}/>
-        <BloqueBuscador/>
+        <MainHeader
+          title1="Iniciar Sesión"
+          btnHandler1={goToLogIn}
+          title2="Crear Cuenta"
+          btnHandler2={goToRegister}
+        />
+        <BloqueBuscador />
         <div>
-          <BloqueCategorias/>
-          <BloqueListado/>
+          <BloqueCategorias />
+          <BloqueListado />
         </div>
-        <MainFooter/>
+        <MainFooter />
       </>
     );
 }

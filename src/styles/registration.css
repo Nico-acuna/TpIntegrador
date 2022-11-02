@@ -12,6 +12,7 @@
 .registration-form{
     display: flex;
     flex-direction: column;
+    width: 360px;
 }
 
 
@@ -22,6 +23,8 @@
     align-items: center;
     width:100vw;
     margin-top: 1.5rem;
+    min-height: calc(100vh - 194px);
+    margin-bottom: 2.25rem;
 }
 
 .registration-form input {
@@ -31,6 +34,7 @@
     padding-block: 0.5rem;
     margin-inline: 0.5rem;
     padding-left: 0.5rem;
+    width: 100%;
 }
 
 
@@ -52,8 +56,17 @@
     flex-direction: row;
 }
 
+.fullname {
+    width: 98%;
+}
+
 .registered-name {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
+}
+
+#lastName {
+    margin-left: 1rem;
 }

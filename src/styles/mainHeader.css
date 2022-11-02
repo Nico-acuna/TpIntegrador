@@ -3,10 +3,10 @@
 .MainHeader {
     display: flex;
     flex-direction: row;
-     width: 100vw;
+    width: 100vw;
     justify-content: space-between;
     align-items: flex-end;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: var(--bg-color);
@@ -14,6 +14,7 @@
 
 .slogan {
     color: #545776;
+    min-width: 100px;
     font-weight: 300;
     font-style: italic;
     padding-left: 0.5rem;
@@ -28,8 +29,9 @@
 }
 .MainHeader button {
     height: fit-content;
-    margin-left: 0.5rem;
-    margin-right: 6rem;
+    width: fit-content;
+    margin-left: 1rem;
+    margin-right: 5rem;
     border: 2px solid;
     border-color: var(--primary-color);
     color: var(--primary-color);
@@ -38,6 +40,12 @@
     border-radius: 5px;
     background-color: var(--bg-color);
 }
+
+#btn-1 {
+ position: relative;
+ left: 5rem;
+}
+
 /* @media (min-width: 360px) {
     .MainHeader {
       ;
@@ -46,14 +54,7 @@
     }
   }
   
-  @media (min-width: 600px) {
-    .MainHeader {
-      ;
-    }
-    .slogan{
 
-    }
-  }
   
   @media (min-width: 1200px) {
     .MainHeader {
@@ -63,3 +64,29 @@
 
     }
   } */
+
+    @media (max-width: 600px) {
+ 
+       .slogan{
+        display: none;
+      }
+      .buttons {
+        position: relative;
+        right: 6rem;
+      }
+
+          .MainHeader button {
+        height: fit-content;
+        width: fit-content;
+        margin-left: 4rem;
+        margin-right:2rem;
+        border: 2px solid;
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+        padding-inline: 1rem;
+        padding-block: 0.4rem;
+        border-radius: 5px;
+        background-color: var(--bg-color);
+    }
+ 
+  }
