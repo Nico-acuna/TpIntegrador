@@ -1,5 +1,9 @@
 @import url("../App.css");
 
+.RegistrationForm {
+    width: 100vw;
+}
+
 .errorInput{
     border: 2px solid red;
     background-color: #FFE1E1;
@@ -9,19 +13,19 @@
     color: red;
 }
 
-.registration-form{
-    display: flex;
-    flex-direction: column;
-}
-
 
 .registration-container{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    width:100vw;
     margin-top: 1.5rem;
+    overflow-x:hidden;
+}
+
+.registration-form{
+    display: flex;
+    flex-direction: column;
 }
 
 .registration-form input {
@@ -29,8 +33,9 @@
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
     padding-block: 0.5rem;
-    margin-inline: 0.5rem;
+    /* margin-inline: 0.5rem; */
     padding-left: 0.5rem;
+    width: 100%;
 }
 
 
@@ -52,6 +57,17 @@
     flex-direction: row;
 }
 
+.fullname {
+    width: 96%;
+}
+
+#email, #pass, #passwordC {
+    width: 100%;
+}
+
+#lastName{
+    margin-left: 1rem;
+}
 .registered-name {
     display: flex;
     flex-direction: column;

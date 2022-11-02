@@ -1,9 +1,10 @@
 @import url("../App.css");
 
 .MainHeader {
+    margin: 0;
     display: flex;
     flex-direction: row;
-     width: 100vw;
+    width: 100vw;
     justify-content: space-between;
     align-items: flex-end;
     padding-inline: 3rem;
@@ -27,11 +28,11 @@
 .MainHeader button {
     height: fit-content;
     margin-left: 0.5rem;
-    margin-right: 6rem;
+    margin-right: 5rem;
     border: 2px solid;
     border-color: var(--primary-color);
     color: var(--primary-color);
-    padding-inline: 2.5rem;
+    padding-inline: 2rem;
     padding-block: 0.4rem;
     border-radius: 5px;
     background-color: var(--bg-color);

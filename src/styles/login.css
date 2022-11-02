@@ -1,5 +1,9 @@
 @import url("../App.css");
 
+.LoginForm {
+    width: 100vw;
+}
+
 .title {
     color: var(--primary-color);
 }
@@ -12,15 +16,16 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    width:100vw;
+    width:100%;
     margin-top: 4rem;
+    overflow-x: hidden;
 }
 
 .login-form{
     display: flex;
     flex-direction: column;
     padding-left: 3rem;
-    width:300px;
+    min-width:300px;
    
 }
 
